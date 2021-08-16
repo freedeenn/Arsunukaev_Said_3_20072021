@@ -51,6 +51,7 @@ h1 {
   margin-left: 8%;
   padding-top: 20px;
   margin-top: 0px;
+  font-size: 30px;
 }
 .h1 {
   display: flex;
@@ -112,10 +113,11 @@ h1 {
   justify-content: space-between;
   box-shadow: 1px 1px 15px 2px rgba(34, 60, 80, 0.1);
   border-radius: 15px;
-  width: 300px;
+  width: 360px;
+  height: 80px;
   margin-left: 25%;
   margin-top: 20px;
-  padding-left: 5px;
+  padding-left: 10px;
   cursor: pointer;
 }
 .block{
@@ -210,32 +212,32 @@ h1 {
 }
 
 .block:hover .low-block h4 {
-  width: 180px;
+  width: 240px;
 }
 .block:hover h3 {
-  width: 200px;
+  width: 240px;
 }
 .low-block h5{
   display: flex;
   text-align: right;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .block h3 {
   text-align: left;
-  margin-top: 5px;
-  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 .block h4 {
   text-align: left;
-  margin-top: 5px;
-  margin-right: 10px;
-  font-size: 14px;
+  margin-top: 0px;
+  font-size: 18px;
   font-weight: normal;
 }
 .block h5 {
   text-align: right;
-  margin-top: 5px;
-  font-size: 17px;
+  margin-top: 0px;
+  font-size: 18px;
 }
 .div-btn {
   display: flex;
@@ -294,7 +296,7 @@ li {
   margin-right: 17px;
 }
 /*TABLETTE/MOBILE*/
-@media all and (max-width: 1250px) {
+@media all and (max-width: 1300px) {
   .container .likes.hearts:hover path{
     animation: none;
   }
@@ -318,13 +320,13 @@ li {
     width: 100%;
   }
   .slider{
-    height: 100px;
+    height: 80px;
   }
   .block:hover .low-block h4 {
-    width: 250px;
+    width: 320px;
   }
   .block:hover h3 {
-    width: 250px;
+    width: 320px;
   }
   .block:hover .slider {
     width: 0px;
@@ -344,10 +346,10 @@ li {
 }
 @media all and (max-width: 450px){
   .block:hover .low-block h4 {
-    width: 200px;
+    width: 260px;
   }
   .block:hover h3 {
-    width: 200px;
+    width: 260px;
   }
 
 }
